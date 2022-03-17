@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.content {
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+
+}
+
+div.content > img {
+    position: relative;
+}
+
+div.content > div {
+    position: relative;
+    width: 291px;
+    height: 291px;
+    background-color: white;
+
+}
